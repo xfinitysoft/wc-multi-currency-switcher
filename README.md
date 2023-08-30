@@ -1,0 +1,1 @@
+# wc-multi-currency-switcher
