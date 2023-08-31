@@ -33,7 +33,7 @@ Plugin works based on WooCommerce plugin. Version 5.0 and above.
     <dd>Inline styling option for currency switcher to change its background color and font color.</dd>
 </dl> 
 
-###PRO VERSION
+## PRO VERSION
 <dl>
     <dd>dd unlimited multiple currencies from the back-end.</dd> 
     <dd>Admin can link payment gateways for selected currencies</dd>
