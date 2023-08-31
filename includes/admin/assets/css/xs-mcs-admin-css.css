@@ -1,0 +1,153 @@
+.xs-mcs-form-wrap{ 
+	width:100%;
+	background: #fff;
+	padding-top:10px;
+}
+.xs-mcs-form{
+	padding: 25px;
+}
+input[name="currency[enable_payment_gateways]"], select[name="currency[exchange_fee][type]"]{
+	vertical-align:top;
+}
+.xs-mcs-error{
+	color:#fff;
+	background:orange;
+}
+.xs-mcs-base-price, .xs-mcs-calculated-price{
+	font-weight:bold
+}
+.xs-mcs-desc {
+	font-size: 11px !important;
+	color: grey;
+	margin:0;
+	font-style: italic;
+	font-weight: normal;
+}
+.xs-mcs-spinner{
+	visibility: visible;
+	float: none;
+	margin: 0 3px 5px 3px;
+	display: none;
+}
+.select2-selection--multiple li{
+	margin:0;
+}
+.xs-mcs-submit, .xs-mcs-submit td{
+	text-align:right;
+}
+
+.xs-mcs-currencies-wrapp table{
+	width:100%;
+}
+.xs-mcs-currencies-wrapp table th{
+	font-weight:bold;
+}
+.xs-mcs-currencies-wrapp table td{
+	vertical-align: middle;
+}
+.xs-mcs-country, .xs-mcs-gateway {
+	display: block;
+	background: #f1f1f1;
+	padding: 2px 5px;
+	border-radius: 3px;
+	margin: 1px 0px;
+	text-align: center;
+}
+
+.xs-mcs-options-form table{
+	margin:0;
+	margin-left:15px;
+}
+
+.xs-mcs-success{
+	color: #01d001;
+}
+.xs-mcs-settings-saved-msg {
+  visibility: hidden;
+  text-align: center;
+  border-radius: 2px;
+  padding: 0 10px;
+  margin: 0;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.xs-mcs-settings-saved-msg.xs-mcs-show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+.xs-mcs-tab{
+    background-color: #fff;
+}
+.xs-mcs-pro{
+    color:#2fbb1c;
+    font-weight: inherit;
+    font-size: 14px;
+}
+.xs-mcs-pro-link{
+    text-decoration: none;
+}
+.xs-mcs-col-button {
+    width:380px;
+    float: left;
+    
+}
+.xs-mcs-button-main{
+    display: inline-block;
+    width: 160px
+}
+.xs-mcs-button-main p.submit{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+#xs_mcs_name,#xs_mcs_email{
+    width: 335px;
+}
+.xs-send-email-notice{
+  display: none;
+}
+.xs-notice-dismiss{
+  display:none;
+}
+.xs-mcs-send-mail{
+    font-size: 15px !important;
+    font-family: bold;
+    padding: 2px 15px !important;
+}
+.xs_is_active{
+    display:inline-block;
+    visibility:visible;
+    opacity:1
+}
+.xs-top-margin{
+    margin-top: 20px !important; 
+}
+.xs-mail-spinner{
+    margin-top: 38px ;
+}
+.error{
+    outline: 1px solid red;
+}
+.input-group{
+    display: inline-flex;
+}
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

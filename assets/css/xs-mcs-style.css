@@ -1,0 +1,74 @@
+.xs-mcs-curr-switcher-wrap{
+	top: 50%;
+	position: fixed;
+	right: 0;
+	z-index: 999;
+	width:200px;
+}
+
+.xs-mcs-curr-switcher-wrap .xs-mcs-selected-curr{
+	cursor:pointer;
+}
+
+.xs-mcs-curr-name{
+	display:inline-block;
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 4px;
+}
+
+.xs-mcs-curr-switcher-wrap .xs-mcs-currencies{
+	border-top:1px solid;
+	display:none;
+}
+
+.xs-mcs-curr-switcher-wrap .xs-mcs-currencies a{
+	display: block;
+	cursor:pointer;
+}
+
+.widget.widget_xs_mcs_widget .xs-mcs-curr-switcher-wrap{
+	position:unset;
+	width:100%;
+	display:block;
+}
+
+.widget.widget_xs_mcs_widget .xs-mcs-curr-switcher{
+	border-radius:0;
+}
+.xs-mcs-loader {
+	position: relative;
+	overflow: hidden;
+	width: 50px;
+	height: 7px;
+	display: inline-block;
+	margin-left: 5px;
+}
+.xs-mcs-moving-dot {
+	position: absolute;
+	left: 0;
+	width: 7px;
+	height:7px;
+	display: block;
+	top: 0;
+	border-radius:50%;
+	x-transition: all 2s ease-in-out;
+	animation: ani 2s infinite;
+}
+
+
+@keyframes ani {
+	0% {
+		left: 0;
+	}
+	50% {
+		left: 43px;
+	}
+	100% {
+		left: 0;
+	}
+}
+.xs-mcs-selected-curr, .xs-mcs-curr-switcher a{
+	padding:5px;
+	display:block;
+}
