@@ -35,7 +35,7 @@ Plugin works based on WooCommerce plugin. Version 5.0 and above.
 
 ## PRO VERSION
 <dl>
-    <dd>dd unlimited multiple currencies from the back-end.</dd> 
+    <dd>Add unlimited multiple currencies from the back-end.</dd> 
     <dd>Admin can link payment gateways for selected currencies</dd>
     <dd>Allow users to select countries for the selected currency. This currency will be selected automatically for the users who belong to these countries.</dd>
     <dd>Update currency exchange rates on predefined time intervals via the Open Exchange Rates API.</dd>
